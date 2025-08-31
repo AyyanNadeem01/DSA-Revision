@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-
+//input: [1,1,2,3,3,4,4,4]
+//output : true as 2 has unique number of occurrence
 bool uniqueOccurrences(int arr[], int size) {
     bool visited[size] = {false};
     int freq[size];  
