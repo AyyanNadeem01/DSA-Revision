@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
-
+//input:[1,2,5,4,7,8,9,0,9]]
+//output:[2,1,4,5,8,7,0,9,9]
   void swapAlternate(int arr[], int size) {
     
     for (int i = 0; i+1 < size; i += 2) {
