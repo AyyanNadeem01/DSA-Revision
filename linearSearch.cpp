@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
-
+//input:[1,2,3,4,5,6]
+//number to search: 4
+//output: Yes its found!
 bool LinearSearch(int arr[],int size,int n){
     for(int i=0;i<size;i++){
         if(arr[i]==n){
