@@ -22,7 +22,6 @@ void sort012(vector<int>& arr) {
         }
     }
 }
-
 int main() {
     vector<int> arr = {2, 0, 1, 2, 1, 0, 0, 2, 1};
 
