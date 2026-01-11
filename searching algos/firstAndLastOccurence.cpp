@@ -22,7 +22,6 @@ int firstOccurrence(int arr[], int n, int x) {
     return ans;
 }
 
-// Function to find last occurrence
 int lastOccurrence(int arr[], int n, int x) {
     int low = 0, high = n - 1;
     int ans = -1;
