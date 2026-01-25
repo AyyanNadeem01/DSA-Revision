@@ -1,5 +1,18 @@
 #include <iostream>
 using namespace std;
+double morePrecision(int num, int precision, int tempSol) {
+    double factor = 1;
+    double ans = tempSol;
+
+    for (int i = 0; i < precision; i++) {
+        factor /= 10;
+
+        for (double j = ans; j * j <= num; j += factor) {
+            ans = j;
+        }
+    }
+    return ans;
+}
 
 int findSqrt(int num) {
     int s = 0;
@@ -24,8 +37,16 @@ int findSqrt(int num) {
     return ans;
 }
 
+#include <iostream>
+using namespace std;
+
 int main() {
-    cout << findSqrt(36) << endl;  // 6
-    cout << findSqrt(27) << endl;  // 5
+    int num = 27;
+
+    int intPart = findSqrt(num);
+    double result = morePrecision(num, 3, intPart);
+
+    cout << "Square root of " << num << " is: " << result << endl;
+
     return 0;
 }
