@@ -9,12 +9,12 @@ int peakElement(int arr[], int size) {
         int mid = start + (end - start) / 2;
 
         if (arr[mid] < arr[mid + 1]) {
-            start = mid + 1;   // move right
+            start = mid + 1;  
         } else {
-            end = mid;         // move left or stay
+            end = mid;       
         }
     }
-    return start;  // peak index
+    return start;  
 }
 
 int main() {
