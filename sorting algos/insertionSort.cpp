@@ -3,19 +3,21 @@ using namespace std;
 
 void insertionSort(int arr[], int size) {
     for (int i = 1; i < size; i++) {
-        int key = arr[i];        // The element we want to insert
-        int j = i - 1;
+        int currentValue = arr[i];   // The value we want to insert
+        int minIndex = i;            // Temporary index for shifting
 
-        // Move elements of arr[0..i-1] that are greater than key
-        // one position ahead to make space for key
-        while (j >= 0 && arr[j] > key) {
-            arr[j + 1] = arr[j];
+        // Shift elements in the sorted part that are greater than currentValue
+        int j = i - 1;
+        while (j >= 0 && arr[j] > currentValue) {
+            arr[j + 1] = arr[j];   // Move element one step to the right
+            minIndex = j;          // Update the index where currentValue will go
             j--;
         }
 
-        arr[j + 1] = key; // Insert key at the correct position
+        arr[minIndex] = currentValue; // Insert at the correct position
     }
 
+    // Print sorted array
     for (int i = 0; i < size; i++) {
         cout << arr[i] << " ";
     }
