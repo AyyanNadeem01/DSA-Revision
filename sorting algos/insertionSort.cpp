@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-
+// it follow the approach of building a sorted array one element at a time
+//by moveing elements greater than the key to one position ahead
 void insertionSort(int arr[], int n) {
     for (int i = 1; i < n; i++) {
         int key = arr[i];
