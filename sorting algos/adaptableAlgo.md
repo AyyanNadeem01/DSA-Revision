@@ -47,9 +47,9 @@ After sorting by value:
 
 **Stable vs Unstable:**
 
-- Bubble Sort → ✅ Stable
-- Insertion Sort → ✅ Stable
-- Selection Sort → ❌ Not stable
+- Bubble Sort → ✅ Stable.
+- Insertion Sort → ✅ Stable.
+- Selection Sort → ❌ Not stable.
 
 **Exam-friendly:**
 
