@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
+// This algorithm sorts an array containing only 0s, 1s, and 2s in linear time and constant space.
 void sort012(vector<int>& arr) {
     int low = 0;              
     int mid = 0;             
