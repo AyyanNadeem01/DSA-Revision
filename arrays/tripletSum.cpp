@@ -1,3 +1,4 @@
+//triplet sum
 #include <iostream>
 using namespace std;
 
