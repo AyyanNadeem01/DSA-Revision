@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//pair sum
 int main() {
     int arr[] = {1, 5, 7, -1, 5};
     int n = sizeof(arr)/sizeof(arr[0]);
