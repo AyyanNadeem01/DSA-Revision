@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//amounttonotesplitusingswitchcase
 int main() {
     int amount;
     cout << "Enter amount: ";
