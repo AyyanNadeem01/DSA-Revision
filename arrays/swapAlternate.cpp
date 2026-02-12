@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+//swap alternate
 int main() {
     int array[9]={2,3,5,2,16,8,9,4,51};
 
