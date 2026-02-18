@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//insertion sort
+//insertion sort algorithm
 // it follow the approach of building a sorted array one element at a time
 //by moveing elements greater than the key to one position ahead
 void applyInsertionSort(int arr[], int n) {
