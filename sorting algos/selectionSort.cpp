@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//selection sort
 void selectionSort(int arr[], int size) {
     for (int i = 0; i < size - 1; i++) {       // Go through each element
         int minValue = arr[i];                // Assume current element is the smallest
