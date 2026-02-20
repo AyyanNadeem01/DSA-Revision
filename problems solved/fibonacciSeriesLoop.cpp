@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+//fibonacci series
 int main(){
     int length=10;
     int t1=0,t2=1,nextTerm;
