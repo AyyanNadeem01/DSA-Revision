@@ -1,4 +1,4 @@
-//triplet sum
+//Triplet sum
 #include <iostream>
 using namespace std;
 
